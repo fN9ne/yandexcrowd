@@ -35,7 +35,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header">
+			<header class="header element-animation element-animation-slide-top">
 				<div class="header__container container">
 					<a href="#" class="header__logo">
 						<img src="img/logo.svg" alt="Логотип клуба четырёх коней">
@@ -47,36 +47,48 @@
 					<div class="welcome__container container">
 						<div class="welcome__content">
 							<h1>
-								<span>ПРЕВРАТИТЕ</span>
+								<span style="--d: 0.1s"
+									class="element-animation element-animation-slide-bottom">ПРЕВРАТИТЕ</span>
 								<br>
-								<span>УЕЗДНЫЙ ГОРОД</span>
+								<span style="--d: 0.2s" class="element-animation element-animation-slide-bottom">УЕЗДНЫЙ
+									ГОРОД</span>
 								<br>
-								<span class="indent indent_2">В СТОЛИЦУ</span>
+								<span style="--d: 0.3s"
+									class="indent indent_2 element-animation element-animation-slide-bottom">В СТОЛИЦУ</span>
 								<br>
-								<span class="indent indent_1">ЗЕМНОГО ШАРА</span>
+								<span style="--d: 0.4s"
+									class="indent indent_1 element-animation element-animation-slide-bottom">ЗЕМНОГО
+									ШАРА</span>
 							</h1>
-							<div class="welcome__subtext">Оплатите взнос на телеграммы для организации <br>Международного
+							<div style="--d: 0.5s" class="welcome__subtext element-animation element-animation-slide-bottom">
+								Оплатите взнос на телеграммы для организации <br>Международного
 								васюкинского турнира по шахматам</div>
 							<div class="welcome__actions">
-								<a href="#support" class="button button_primary">Поддержать <br>шахматную мысль</a>
-								<a href="#details" class="button button_secondary">Подробнее <br>о турнире</a>
+								<a href="#support" style="--d: 0.55s"
+									class="button button_primary element-animation element-animation-slide-scale">Поддержать
+									<br>шахматную мысль</a>
+								<a href="#details" style="--d: 0.6s"
+									class="button button_secondary element-animation element-animation-slide-scale">Подробнее
+									<br>о турнире</a>
 							</div>
 						</div>
 					</div>
 					<div class="welcome__background"></div>
-					<img src="img/welcomeScreen/city.png" alt="city" class=" welcome-illustration__city">
-					<img src="img/welcomeScreen/chessFigure1.png" alt="chess figure 1"
-						class="welcome-illustration__chess welcome-illustration__chess-1">
-					<img src="img/welcomeScreen/chessFigure2.png" alt="chess figure 2"
-						class="welcome-illustration__chess welcome-illustration__chess-2">
-					<img src="img/welcomeScreen/chessFigure3.png" alt="chess figure 3"
-						class="welcome-illustration__chess welcome-illustration__chess-3">
-					<img src="img/welcomeScreen/chessFigure4.png" alt="chess figure 4"
-						class="welcome-illustration__chess welcome-illustration__chess-4">
-					<div class="welcome__circle"></div>
-					<img src="img/welcomeScreen/circleText.svg" alt="circle text" class="welcome__circle-text">
+					<img src="img/welcomeScreen/city.png" alt="city" style="--d: 0.8s"
+						class=" welcome-illustration__city element-animation element-animation-slide-bottom">
+					<img src="img/welcomeScreen/chessFigure1.png" alt="chess figure 1" style="--d: 1.1s"
+						class="welcome-illustration__chess welcome-illustration__chess-1 element-animation element-animation-slide-bottom">
+					<img src="img/welcomeScreen/chessFigure2.png" alt="chess figure 2" style="--d: 1.2s"
+						class="welcome-illustration__chess welcome-illustration__chess-2 element-animation element-animation-slide-bottom">
+					<img src="img/welcomeScreen/chessFigure3.png" alt="chess figure 3" style="--d: 1.3s"
+						class="welcome-illustration__chess welcome-illustration__chess-3 element-animation element-animation-slide-bottom">
+					<img src="img/welcomeScreen/chessFigure4.png" alt="chess figure 4" style="--d: 1.4s"
+						class="welcome-illustration__chess welcome-illustration__chess-4 element-animation element-animation-slide-bottom">
+					<div style="--d: 1s" class="welcome__circle element-animation element-animation-slide-scale"></div>
+					<img src="img/welcomeScreen/circleText.svg" alt="circle text" style="--d: 1s"
+						class="welcome__circle-text element-animation element-animation-slide-scale">
 				</div>
-				<div class="marquee">
+				<div class="marquee element-animation element-animation-slide-top" style="--d: 0.1s">
 					<div class="marquee__inner">
 						<p>Дело помощи утопающим — дело рук самих утопающих!</p>
 						<div class="marquee__delimiter"></div>
@@ -93,7 +105,7 @@
 				</div>
 				<div class="support" id="support">
 					<div class="support__container container">
-						<div class="support__text-container">
+						<div class="support__text-container element-animation element-animation-slide-left">
 							<h2>
 								ЧТОБЫ ПОДДЕРЖАТЬ
 								<br>
@@ -106,223 +118,244 @@
 								<span class="red">«ПЛОДОТВОРНАЯ ДЕБЮТНАЯ ИДЕЯ»</span>
 							</h2>
 						</div>
-						<img src="img/image1.png" alt="chess battle" class="support__image">
+						<img src="img/image1.png" alt="chess battle"
+							class="support__image element-animation element-animation-slide-scale">
 					</div>
 				</div>
 				<div class="details" id="details">
 					<div class="details__container container">
 						<div class="details-illustration">
-							<img src="img/details/paper.png" alt="paper" class="details-illustration__paper">
-							<img src="img/details/banknote.png" alt="banknote"
-								class="details-illustration__item details-illustration__banknote">
-							<img src="img/details/human.png" alt="human"
-								class="details-illustration__item details-illustration__human">
-							<img src="img/details/handWithChess.png" alt="arm"
-								class="details-illustration__item details-illustration__arm">
-							<img src="img/details/chess.png" alt="chess"
-								class="details-illustration__item details-illustration__chess">
+							<img src="img/details/paper.png" alt="paper" style="--d: 0.2s;"
+								class="details-illustration__paper element-animation element-animation-slide-scale">
+							<img src="img/details/banknote.png" alt="banknote" style="--d: 0.35s;"
+								class="details-illustration__item details-illustration__banknote element-animation element-animation-slide-scale">
+							<img src="img/details/human.png" alt="human" style="--d: 0.5s;"
+								class="details-illustration__item details-illustration__human element-animation element-animation-slide-scale">
+							<img src="img/details/handWithChess.png" alt="arm" style="--d: 0.65s;"
+								class="details-illustration__item details-illustration__arm element-animation element-animation-slide-scale">
+							<img src="img/details/chess.png" alt="chess" style="--d: 0.80s;"
+								class="details-illustration__item details-illustration__chess element-animation element-animation-slide-scale">
 						</div>
 						<div class="details__content">
-							<h2>
+							<h2 class="element-animation element-animation-slide-left">
 								И СЕАНС <span class="red">ОДНОВРЕМЕННОЙ ИГРЫ</span>
 								<br>
 								<span class="red">В ШАХМАТЫ НА 160 ДОСКАХ</span>
 								<br>
 								<span class="break">ГРОССМЕЙСТЕРА <br>О. БЕНДЕРА</span>
 							</h2>
-							<table>
+							<table class="element-animation element-animation-scale">
 								<tbody>
-									<tr>
+									<tr style="--d: 0.3s" class="element-animation element-animation-slide-scale">
 										<th>Место проведения:</th>
 										<td>Клуб «Картонажник»</td>
 									</tr>
-									<tr>
+									<tr style="--d: 0.4s" class="element-animation element-animation-slide-scale">
 										<th>Дата и время мероприятия:</th>
 										<td>22 июня 1927 г. в 18:00</td>
 									</tr>
-									<tr>
+									<tr style="--d: 0.5s" class="element-animation element-animation-slide-scale">
 										<th>Стоимость входных билетов:</th>
 										<td>20 коп.</td>
 									</tr>
-									<tr class="row">
+									<tr style="--d: 0.6s" class="row element-animation element-animation-slide-scale">
 										<th>Плата за игру:</th>
 										<td>50 коп.</td>
 									</tr>
-									<tr>
+									<tr style="--d: 0.7s" class="element-animation element-animation-slide-scale">
 										<th>Взнос на телеграммы:</th>
 										<td><span class="line-though">100 руб.</span>&nbsp; 21 руб. 16 коп.</td>
 									</tr>
 								</tbody>
 							</table>
-							<div class="details__description description">По всем вопросам обращаться в администрацию
+							<div class="details__description description element-animation element-animation-slide-top"">По всем вопросам обращаться в администрацию
 								к К. Михельсону</div>
 						</div>
 					</div>
 				</div>
-				<div class="steps">
-					<div class="steps__container container">
-						<img src="img/airoplane.png" alt="airoplane" class="steps__airoplane">
-						<div class="steps__header">
-							<h2 class="steps__heading heading">ЭТАПЫ ПРЕОБРАЖЕНИЯ <br>ВАСЮКОВ</h2>
-							<div class="steps__subtitle">Будущие источники <br>обогащения васюкинцев</div>
-						</div>
-						<div class="steps-grid">
-							<div class="steps-grid__item">
-								<div class="steps-grid__num">1</div>
-								<div class="steps-grid__text">Строительство железнодорожной магистрали Москва-Васюки</div>
-							</div>
-							<div class="steps-grid__item">
-								<div class="steps-grid__num">2</div>
-								<div class="steps-grid__text">Открытие фешенебельной гостиницы «Проходная пешка» и других
-									небоскрёбов</div>
-							</div>
-							<div class="steps-grid__item steps-grid__item_3">
-								<div class="steps-grid__num">3</div>
-								<div class="steps-grid__text">Поднятие сельского хозяйства в радиусе на тысячу километров:
-									производство овощей, фруктов, икры, шоколадных конфет</div>
-							</div>
-							<div class="steps-grid__item">
-								<div class="steps-grid__num">4</div>
-								<div class="steps-grid__text">Строительство дворца для турнира</div>
-							</div>
-							<div class="steps-grid__item">
-								<div class="steps-grid__num">5</div>
-								<div class="steps-grid__text">Размещение гаражей для гостевого<br>автотранспорта</div>
-							</div>
-							<div class="steps-grid__item">
-								<div class="steps-grid__num">6</div>
-								<div class="steps-grid__text">Постройка сверхмощной радиостанции для передачи всему миру
-									сенсационных результатов</div>
-							</div>
-							<div class="steps-grid__item steps-grid__item_7">
-								<div class="steps-grid__num">7</div>
-								<div class="steps-grid__text">Создание аэропорта «Большие Васюки»<br>с регулярным отправлением
-									почтовых<br>самолётов и дирижаблей во все концы<br>света, включая Лос-Анжелос и Мельбурн
-								</div>
-							</div>
-						</div>
-						<div class="steps__slider">
-							<div class="swiper">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide steps-slide">
-										<div class="steps-slide__block">
+				<div class=" steps">
+								<div class="steps__container container">
+									<img src="img/airoplane.png" alt="airoplane"
+										class="steps__airoplane element-animation element-animation-slide-bottom">
+									<div class="steps__header element-animation element-animation-slide-scale">
+										<h2 class="steps__heading heading">ЭТАПЫ ПРЕОБРАЖЕНИЯ <br>ВАСЮКОВ</h2>
+										<div class="steps__subtitle">Будущие источники <br>обогащения васюкинцев</div>
+									</div>
+									<div class="steps-grid">
+										<div style="--d: 0.2s"
+											class="steps-grid__item element-animation element-animation-slide-left">
 											<div class="steps-grid__num">1</div>
 											<div class="steps-grid__text">Строительство железнодорожной магистрали Москва-Васюки
 											</div>
 										</div>
-										<div class="steps-slide__block">
+										<div style="--d: 0.4s"
+											class="steps-grid__item element-animation element-animation-slide-top">
 											<div class="steps-grid__num">2</div>
 											<div class="steps-grid__text">Открытие фешенебельной гостиницы «Проходная пешка»
-												и других небоскрёбов</div>
+												и других
+												небоскрёбов</div>
 										</div>
-									</div>
-									<div class="swiper-slide steps-slide">
-										<div class="steps-slide__block">
+										<div style="--d: 0.7s"
+											class="steps-grid__item steps-grid__item_3 element-animation element-animation-slide-top">
 											<div class="steps-grid__num">3</div>
 											<div class="steps-grid__text">Поднятие сельского хозяйства в радиусе на тысячу
-												километров: производство овощей, фруктов, икры, шоколадных конфет</div>
+												километров:
+												производство овощей, фруктов, икры, шоколадных конфет</div>
 										</div>
-									</div>
-									<div class="swiper-slide steps-slide">
-										<div class="steps-slide__block">
+										<div style="--d: 0.5s"
+											class="steps-grid__item element-animation element-animation-slide-left">
 											<div class="steps-grid__num">4</div>
 											<div class="steps-grid__text">Строительство дворца для турнира</div>
 										</div>
-										<div class="steps-slide__block">
+										<div style="--d: 0.6s"
+											class="steps-grid__item element-animation element-animation-slide-scale">
 											<div class="steps-grid__num">5</div>
-											<div class="steps-grid__text">Размещение гаражей для гостевого автотранспорта</div>
+											<div class="steps-grid__text">Размещение гаражей для гостевого<br>автотранспорта</div>
 										</div>
-									</div>
-									<div class="swiper-slide steps-slide">
-										<div class="steps-slide__block">
+										<div style="--d: 0.2s"
+											class="steps-grid__item element-animation element-animation-slide-left">
 											<div class="steps-grid__num">6</div>
 											<div class="steps-grid__text">Постройка сверхмощной радиостанции для передачи всему
-												миру сенсационных результатов</div>
+												миру
+												сенсационных результатов</div>
 										</div>
-									</div>
-									<div class="swiper-slide steps-slide">
-										<div class="steps-slide__block">
+										<div style="--d: 0.1s"
+											class="steps-grid__item steps-grid__item_7 element-animation element-animation-slide-bottom">
 											<div class="steps-grid__num">7</div>
-											<div class="steps-grid__text">Создание аэропорта «Большие Васюки» с регулярным
-												отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос
-												и Мельбурн</div>
+											<div class="steps-grid__text">Создание аэропорта «Большие Васюки»<br>с регулярным
+												отправлением
+												почтовых<br>самолётов и дирижаблей во все концы<br>света, включая Лос-Анжелос
+												и Мельбурн
+											</div>
+										</div>
+									</div>
+									<div class="steps__slider element-animation element-animation-slide-scale">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide steps-slide">
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">1</div>
+														<div class="steps-grid__text">Строительство железнодорожной магистрали
+															Москва-Васюки
+														</div>
+													</div>
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">2</div>
+														<div class="steps-grid__text">Открытие фешенебельной гостиницы «Проходная
+															пешка»
+															и других небоскрёбов</div>
+													</div>
+												</div>
+												<div class="swiper-slide steps-slide">
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">3</div>
+														<div class="steps-grid__text">Поднятие сельского хозяйства в радиусе на тысячу
+															километров: производство овощей, фруктов, икры, шоколадных конфет</div>
+													</div>
+												</div>
+												<div class="swiper-slide steps-slide">
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">4</div>
+														<div class="steps-grid__text">Строительство дворца для турнира</div>
+													</div>
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">5</div>
+														<div class="steps-grid__text">Размещение гаражей для гостевого автотранспорта
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide steps-slide">
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">6</div>
+														<div class="steps-grid__text">Постройка сверхмощной радиостанции для передачи
+															всему
+															миру сенсационных результатов</div>
+													</div>
+												</div>
+												<div class="swiper-slide steps-slide">
+													<div class="steps-slide__block">
+														<div class="steps-grid__num">7</div>
+														<div class="steps-grid__text">Создание аэропорта «Большие Васюки» с регулярным
+															отправлением почтовых самолётов и дирижаблей во все концы света, включая
+															Лос-Анжелос
+															и Мельбурн</div>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev members-slide__button"></div>
+											<div class="swiper-button-next members-slide__button"></div>
 										</div>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div>
-								<div class="swiper-button-prev members-slide__button"></div>
-								<div class="swiper-button-next members-slide__button"></div>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div class="members">
-					<div class="members__container container">
-						<h2 class="heading">УЧАСТНИКИ ТУРНИРА</h2>
-						<div class="members__slider">
-							<div class="swiper">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Хозе-Рауль Капабланка</div>
-										<div class="members-slide__text">Чемпион мира по шахматам</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
-									</div>
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Эммануил Ласкер</div>
-										<div class="members-slide__text">Чемпион мира по шахматам</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
-									</div>
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Александр Алехин</div>
-										<div class="members-slide__text">Чемпион мира по шахматам</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
-									</div>
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Арон Нимцович</div>
-										<div class="members-slide__text">Чемпион мира по шахматам</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
-									</div>
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Рихард Рети</div>
-										<div class="members-slide__text">Чемпион мира по шахматам</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
-									</div>
-									<div class="swiper-slide members-slide">
-										<img src="img/person.png" alt="Person">
-										<div class="members-slide__name">Остап Бендер</div>
-										<div class="members-slide__text">Гроссмейстер</div>
-										<a href="#" class="members-slide__link">Подробнее</a>
+							<div class="members">
+								<div class="members__container container">
+									<h2 class="heading element-animation element-animation-slide-top">УЧАСТНИКИ ТУРНИРА</h2>
+									<div class="members__slider element-animation element-animation-slide-scale">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Хозе-Рауль Капабланка</div>
+													<div class="members-slide__text">Чемпион мира по шахматам</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Эммануил Ласкер</div>
+													<div class="members-slide__text">Чемпион мира по шахматам</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Александр Алехин</div>
+													<div class="members-slide__text">Чемпион мира по шахматам</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Арон Нимцович</div>
+													<div class="members-slide__text">Чемпион мира по шахматам</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Рихард Рети</div>
+													<div class="members-slide__text">Чемпион мира по шахматам</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+												<div class="swiper-slide members-slide">
+													<img src="img/person.png" alt="Person">
+													<div class="members-slide__name">Остап Бендер</div>
+													<div class="members-slide__text">Гроссмейстер</div>
+													<a href="#" class="members-slide__link">Подробнее</a>
+												</div>
+											</div>
+											<div class="swiper-button-prev members-slide__button"></div>
+											<div class="swiper-button-next members-slide__button"></div>
+											<div class="swiper-pagination"></div>
+										</div>
 									</div>
 								</div>
-								<div class="swiper-button-prev members-slide__button"></div>
-								<div class="swiper-button-next members-slide__button"></div>
-								<div class="swiper-pagination"></div>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div class="marquee">
-					<div class="marquee__inner">
-						<p>Дело помощи утопающим — дело рук самих утопающих!</p>
-						<div class="marquee__delimiter"></div>
-						<p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-						<div class="marquee__delimiter"></div>
-						<p>Лед тронулся, господа присяжные заседатели!</p>
-						<div class="marquee__delimiter"></div>
-						<p>Дело помощи утопающим — дело рук самих утопающих!</p>
-						<div class="marquee__delimiter"></div>
-						<p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-						<div class="marquee__delimiter"></div>
-						<p>Лед тронулся, господа присяжные заседатели!</p>
-					</div>
-				</div>
+							<div class="marquee element-animation element-animation-slide-top">
+								<div class="marquee__inner">
+									<p>Дело помощи утопающим — дело рук самих утопающих!</p>
+									<div class="marquee__delimiter"></div>
+									<p>Шахматы двигают вперед не только культуру, но и экономику!</p>
+									<div class="marquee__delimiter"></div>
+									<p>Лед тронулся, господа присяжные заседатели!</p>
+									<div class="marquee__delimiter"></div>
+									<p>Дело помощи утопающим — дело рук самих утопающих!</p>
+									<div class="marquee__delimiter"></div>
+									<p>Шахматы двигают вперед не только культуру, но и экономику!</p>
+									<div class="marquee__delimiter"></div>
+									<p>Лед тронулся, господа присяжные заседатели!</p>
+								</div>
+							</div>
 			</main>
-			<footer class="footer">
+			<footer class="footer element-animation element-animation-slide-top">
 				<div class="footer__container container">Все персонажи, события и цитаты являются вымышленными
 					и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа
 					и Евгения Петрова «Двенадцать стульев».</div>

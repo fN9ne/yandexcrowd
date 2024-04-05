@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 		});
 	});
 });
-
+/* sliders */
 const membersSlider = new Swiper(".members__slider .swiper", {
 	loop: true,
 	slidesPerView: 1,
@@ -34,7 +34,6 @@ const membersSlider = new Swiper(".members__slider .swiper", {
 		},
 	},
 });
-
 const stepsSlider = new Swiper(".steps__slider .swiper", {
 	spaceBetween: 20,
 	pagination: {
@@ -45,3 +44,21 @@ const stepsSlider = new Swiper(".steps__slider .swiper", {
 		prevEl: ".swiper-button-prev",
 	},
 });
+/* animations on scroll */
+const onEntry = (entry) => {
+	entry.forEach((change) => {
+		if (change.isIntersecting) {
+			setTimeout(() => change.target.classList.add("element-show"), 250);
+		}
+	});
+};
+
+let options = {
+	threshold: [0.5],
+};
+let observer = new IntersectionObserver(onEntry, options);
+let elements = document.querySelectorAll(".element-animation");
+
+for (let element of elements) {
+	observer.observe(element);
+}
